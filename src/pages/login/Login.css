@@ -1,0 +1,132 @@
+.container-login-form {
+  width: 500px;
+  /* margin: auto; */
+  margin: 78px auto !important;
+}
+.login-invest {
+  width: 100%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+  border: 1px;
+}
+
+.forgot_link {
+  color: #1976d2;
+  font-weight: 600;
+  text-decoration: none;
+}
+.form-control-invalid {
+  border: 0.5px solid red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 6px;
+}
+.form-control {
+  /* border: 1px solid rgb(12, 12, 134); */
+}
+.error-login {
+  position: relative;
+}
+.error-text {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+
+  gap: 19px;
+}
+
+.materialUi {
+  text-align: center;
+  font-size: 31px;
+  font-weight: 700;
+  color: teal;
+}
+.login-form1 {
+  display: flex;
+  flex-direction: column;
+}
+.login-form2 {
+  display: flex;
+  flex-direction: column;
+}
+.forget_password {
+  font-size: 12px;
+  position: absolute;
+  right: 1px;
+}
+
+.button-box {
+  width: 100%;
+  position: relative;
+  margin-bottom: 12px;
+}
+.login_button {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  background-color: teal !important;
+  margin-top: 8px;
+}
+
+.form_class {
+  width: 70%;
+}
+.google_login {
+  font-size: 12px;
+  margin: 0 7px;
+  display: flex;
+  align-items: center;
+}
+label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login-with-google {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.google_log_button {
+  border: none;
+  font-size: 14px;
+  padding: 8px;
+  box-shadow: 0 2px 19px rgb(0 0 0 / 29%);
+}
+.google_login-text {
+  flex: 3.5;
+  font-size: 14px;
+  font-weight: 500;
+}
+.google_icon {
+  flex: 0.5;
+}
+.bottom_log {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.instead {
+  color: #1f98d1;
+}
+
+/* media query+++++++++++++++++++++++++++++++++++++++for mobile++++++++++++++++++++ */
+
+@media (max-width: 600px) {
+  .login {
+    width: 100% !important;
+  }
+  .form_class {
+    width: 100%;
+  }
+}
